@@ -2,7 +2,7 @@
 layout: default
 title: Download REST API Documentation
 nav_order: 7
-permalink: /docs/Download-REST-API-Documentation
+permalink: /mstr-docs/docs/Download-REST-API-Documentation
 ---
 
 ## In This Article

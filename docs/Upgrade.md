@@ -2,7 +2,7 @@
 layout: default
 title: Upgrade
 nav_order: 2
-permalink: /docs/Upgrade
+permalink: /mstr-docs/docs/Upgrade
 ---
 
 # Upgrade to a Newer Version of MicroStrategy

@@ -2,7 +2,7 @@
 layout: default
 title: REST API Families
 nav_order: 4
-permalink: /docs/REST-API-Families
+permalink: /mstr-docs/docs/REST-API-Families
 ---
 
 # MicroStrategy REST API Families

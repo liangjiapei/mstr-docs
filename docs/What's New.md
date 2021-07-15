@@ -2,7 +2,7 @@
 layout: default
 title: What's New
 nav_order: 1
-permalink: /docs/What's-New
+permalink: /mstr-docs/docs/What's-New
 ---
 
 # What's New in the REST API

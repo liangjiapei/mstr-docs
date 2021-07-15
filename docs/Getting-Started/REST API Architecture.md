@@ -3,7 +3,7 @@ layout: default
 title: REST API Architecture
 parent: Getting Started
 nav_order: 3
-permalink: /docs/Getting-Started/REST-API-Architecture
+permalink: /mstr-docs/docs/Getting-Started/REST-API-Architecture
 ---
 
 # REST API Architecture
