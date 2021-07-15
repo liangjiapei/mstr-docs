@@ -4,7 +4,7 @@ name: Eleventy Build
 # events but only for the master branch
 on:
   push:
-    branches: [ eleventy-conversion ]
+    branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,7 +24,7 @@ jobs:
         node-version: '14'
 
     - name: Install packages
-      run: npm ci
+      run: npm install
 
     - name: Run npm build
       run: npm run build
