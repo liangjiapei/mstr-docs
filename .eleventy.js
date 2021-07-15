@@ -13,6 +13,7 @@ module.exports = (eleventyConfig) => {
             'html',
             'liquid',
             'md',
+            'markdown',
         ],
     };
 };

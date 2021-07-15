@@ -17,7 +17,7 @@ The REST framework is scalable, allowing you to configure a clustered environmen
 
 The REST Framework layer is built on top of the existing WebObjects and XML API layers. It provides a comprehensive set of APIs that allow developers to quickly and easily customize MicroStrategy BI functionality.
 
-<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.microstrategy.com/pages/mshaffer/mstr-docs/images/REST_architecture.png">
+<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/REST_architecture.png">
 
 * REST Framework Layer: The REST Framework Layer exposes an interface to fetch and manipulate data using HTTP requests such as GET, POST, DELETE, and so on.
 * WebObjects Layer: The BI function layer that contains the Java classes that interpret and initiate distinct units of BI functionality (such as pivot, sort, subtotal, drill, and so on). This layer also constructs the aggregated XML API calls to the XML API layer.

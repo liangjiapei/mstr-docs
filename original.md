@@ -2,9 +2,8 @@
 layout: default
 title: REST API
 nav_order: 0
-permalink: /
+permalink: /original
 ---
-
 # MicroStrategy REST API
 {: .fs-10 .fw-300 .mb-lg-5 }
 
