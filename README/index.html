@@ -1,0 +1,51 @@
+<p align="right">
+    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions?query=workflow%3A%22Master+branch+CI%22"><img src="https://github.com/pmarsceill/just-the-docs/workflows/Master%20branch%20CI/badge.svg" alt="Build status"></a>
+</p>
+<br><br>
+<p align="center">
+    <h1 align="center">Just the Docs</h1>
+    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
+    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See it in action!</a></strong></p>
+    <br><br><br>
+</p>
+<p><img src="https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif" alt="jtd"></p>
+<h2>Installation</h2>
+<p>Add this line to your Jekyll site's Gemfile:</p>
+<pre><code class="language-ruby">gem &quot;just-the-docs&quot;
+</code></pre>
+<p>And add this line to your Jekyll site's <code>_config.yml</code>:</p>
+<pre><code class="language-yaml">theme: just-the-docs
+</code></pre>
+<p>And then execute:</p>
+<pre><code>$ bundle
+</code></pre>
+<p>Or install it yourself as:</p>
+<pre><code>$ gem install just-the-docs
+</code></pre>
+<p>Alternatively, you can run it inside Docker while developing your site</p>
+<pre><code>$ docker-compose up
+</code></pre>
+<h2>Usage</h2>
+<p><a href="https://pmarsceill.github.io/just-the-docs/">View the documentation</a> for usage information.</p>
+<h2>Contributing</h2>
+<p>Bug reports and pull requests are welcome on GitHub at https://github.com/pmarsceill/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the <a href="http://contributor-covenant.org">Contributor Covenant</a> code of conduct.</p>
+<h3>Submitting code changes:</h3>
+<ul>
+<li>Open a <a href="https://github.com/pmarsceill/just-the-docs/pulls">Pull Request</a></li>
+<li>Ensure all CI tests pass</li>
+<li>Await code review</li>
+<li>Bump the version number in <code>just-the-docs.gemspec</code> and <code>package.json</code> according to <a href="https://semver.org/">semantic versioning</a>.</li>
+</ul>
+<h3>Design and development principles of this theme:</h3>
+<ol>
+<li>As few dependencies as possible</li>
+<li>No build script needed</li>
+<li>First class mobile experience</li>
+<li>Make the content shine</li>
+</ol>
+<h2>Development</h2>
+<p>To set up your environment to develop this theme, run <code>bundle install</code>.</p>
+<p>Your theme is set up just like a normal Jekyll site! To test your theme, run <code>bundle exec jekyll serve</code> and open your browser at <code>http://localhost:4000</code>. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.</p>
+<p>When the theme is released, only the files in <code>_layouts</code>, <code>_includes</code>, and <code>_sass</code> tracked with Git will be released.</p>
+<h2>License</h2>
+<p>The theme is available as open source under the terms of the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
